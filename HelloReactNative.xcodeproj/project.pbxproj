@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527BA4592019E7CF000ADA34 /* bundle in Resources */ = {isa = PBXBuildFile; fileRef = 527BA4582019E7CF000ADA34 /* bundle */; };
+		5292DC2C20173FA100C44964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292DC2B20173FA100C44964 /* AppDelegate.m */; };
+		5292DC2F20173FA100C44964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292DC2E20173FA100C44964 /* ViewController.m */; };
+		5292DC3220173FA100C44964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5292DC3020173FA100C44964 /* Main.storyboard */; };
+		5292DC3420173FA100C44964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5292DC3320173FA100C44964 /* Assets.xcassets */; };
+		5292DC3720173FA100C44964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5292DC3520173FA100C44964 /* LaunchScreen.storyboard */; };
+		5292DC3A20173FA100C44964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292DC3920173FA100C44964 /* main.m */; };
+		52DFBABD2018897F00A2E9BB /* HelloReactNativeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFBABC2018897F00A2E9BB /* HelloReactNativeManager.m */; };
+		F7D72404AA4D80C723CCFA57 /* libPods-HelloReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D0AA8D10192E2AEDEDB68E /* libPods-HelloReactNative.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12D0AA8D10192E2AEDEDB68E /* libPods-HelloReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527BA4582019E7CF000ADA34 /* bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bundle; path = ios/bundle; sourceTree = SOURCE_ROOT; };
+		5292DC2720173FA100C44964 /* HelloReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5292DC2A20173FA100C44964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5292DC2B20173FA100C44964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5292DC2D20173FA100C44964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5292DC2E20173FA100C44964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5292DC3120173FA100C44964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5292DC3320173FA100C44964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5292DC3620173FA100C44964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5292DC3820173FA100C44964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5292DC3920173FA100C44964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52DFBABB2018897F00A2E9BB /* HelloReactNativeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloReactNativeManager.h; sourceTree = "<group>"; };
+		52DFBABC2018897F00A2E9BB /* HelloReactNativeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloReactNativeManager.m; sourceTree = "<group>"; };
+		A0D408B05C7E925CA2FE6225 /* Pods-HelloReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloReactNative/Pods-HelloReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D8D0BE668765AA132F685A /* Pods-HelloReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloReactNative/Pods-HelloReactNative.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5292DC2420173FA100C44964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D72404AA4D80C723CCFA57 /* libPods-HelloReactNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5292DC1E20173FA100C44964 = {
+			isa = PBXGroup;
+			children = (
+				5292DC2920173FA100C44964 /* HelloReactNative */,
+				5292DC2820173FA100C44964 /* Products */,
+				CD16A5660409152BB481108D /* Pods */,
+				77174F08B270346DE4870E5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5292DC2820173FA100C44964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5292DC2720173FA100C44964 /* HelloReactNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5292DC2920173FA100C44964 /* HelloReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				5292DC2A20173FA100C44964 /* AppDelegate.h */,
+				5292DC2B20173FA100C44964 /* AppDelegate.m */,
+				5292DC2D20173FA100C44964 /* ViewController.h */,
+				5292DC2E20173FA100C44964 /* ViewController.m */,
+				52DFBABB2018897F00A2E9BB /* HelloReactNativeManager.h */,
+				52DFBABC2018897F00A2E9BB /* HelloReactNativeManager.m */,
+				527BA4582019E7CF000ADA34 /* bundle */,
+				5292DC3020173FA100C44964 /* Main.storyboard */,
+				5292DC3320173FA100C44964 /* Assets.xcassets */,
+				5292DC3520173FA100C44964 /* LaunchScreen.storyboard */,
+				5292DC3820173FA100C44964 /* Info.plist */,
+				5292DC3920173FA100C44964 /* main.m */,
+			);
+			path = HelloReactNative;
+			sourceTree = "<group>";
+		};
+		77174F08B270346DE4870E5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D0AA8D10192E2AEDEDB68E /* libPods-HelloReactNative.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD16A5660409152BB481108D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0D408B05C7E925CA2FE6225 /* Pods-HelloReactNative.debug.xcconfig */,
+				B8D8D0BE668765AA132F685A /* Pods-HelloReactNative.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5292DC2620173FA100C44964 /* HelloReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5292DC3D20173FA100C44964 /* Build configuration list for PBXNativeTarget "HelloReactNative" */;
+			buildPhases = (
+				1D2FFFEBA7BE4836EFFCC500 /* [CP] Check Pods Manifest.lock */,
+				5292DC2320173FA100C44964 /* Sources */,
+				5292DC2420173FA100C44964 /* Frameworks */,
+				5292DC2520173FA100C44964 /* Resources */,
+				840C6383F455880E37E781AC /* [CP] Embed Pods Frameworks */,
+				7F962B0F1F9ABCA0C4B3B9FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloReactNative;
+			productName = HelloReactNative;
+			productReference = 5292DC2720173FA100C44964 /* HelloReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5292DC1F20173FA100C44964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "杜晓星";
+				TargetAttributes = {
+					5292DC2620173FA100C44964 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5292DC2220173FA100C44964 /* Build configuration list for PBXProject "HelloReactNative" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5292DC1E20173FA100C44964;
+			productRefGroup = 5292DC2820173FA100C44964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5292DC2620173FA100C44964 /* HelloReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5292DC2520173FA100C44964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527BA4592019E7CF000ADA34 /* bundle in Resources */,
+				5292DC3720173FA100C44964 /* LaunchScreen.storyboard in Resources */,
+				5292DC3420173FA100C44964 /* Assets.xcassets in Resources */,
+				5292DC3220173FA100C44964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2FFFEBA7BE4836EFFCC500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloReactNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F962B0F1F9ABCA0C4B3B9FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloReactNative/Pods-HelloReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840C6383F455880E37E781AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloReactNative/Pods-HelloReactNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5292DC2320173FA100C44964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5292DC2F20173FA100C44964 /* ViewController.m in Sources */,
+				52DFBABD2018897F00A2E9BB /* HelloReactNativeManager.m in Sources */,
+				5292DC3A20173FA100C44964 /* main.m in Sources */,
+				5292DC2C20173FA100C44964 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5292DC3020173FA100C44964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5292DC3120173FA100C44964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5292DC3520173FA100C44964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5292DC3620173FA100C44964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5292DC3B20173FA100C44964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5292DC3C20173FA100C44964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5292DC3E20173FA100C44964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D408B05C7E925CA2FE6225 /* Pods-HelloReactNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T9TYEH8956;
+				INFOPLIST_FILE = HelloReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huishang.szhs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a30e8fc3-3215-4c3f-bfec-e98585b34c19";
+				PROVISIONING_PROFILE_SPECIFIER = szhs_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5292DC3F20173FA100C44964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D8D0BE668765AA132F685A /* Pods-HelloReactNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T9TYEH8956;
+				INFOPLIST_FILE = HelloReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huishang.szhs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e6f06c16-845d-472e-91ec-6edbfd63d274";
+				PROVISIONING_PROFILE_SPECIFIER = szhs_adhoc;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5292DC2220173FA100C44964 /* Build configuration list for PBXProject "HelloReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5292DC3B20173FA100C44964 /* Debug */,
+				5292DC3C20173FA100C44964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5292DC3D20173FA100C44964 /* Build configuration list for PBXNativeTarget "HelloReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5292DC3E20173FA100C44964 /* Debug */,
+				5292DC3F20173FA100C44964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5292DC1F20173FA100C44964 /* Project object */;
+}
